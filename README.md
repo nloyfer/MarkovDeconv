@@ -3,7 +3,8 @@
 MarkovDeconv is a deconvolution tool for WGBS data, designed to detect small traces of cell type-specific cfDNA fragments.
 The current version of the tool supports only the binary classification case, i.e, only two cell types / tissues.
 # Installation
-First make sure you have `wgbstools` installed.
+First make sure you have [`wgbstools`](https://github.com/nloyfer/wgbs_tools) installed.
+
 ```bash
 git clone https://github.com/nloyfer/MarkovDeconv.git
 cd ./MarkovDeconv/counter/
