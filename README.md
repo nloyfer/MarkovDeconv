@@ -34,7 +34,7 @@ First, `train` the model to distinguish CpG Methylation patterns of the target c
 This command takes as input:
 - marker file: a `bed` file with 2 extra columns for CpG indexes. Could be the output of the `wgbstools segment` command, or any custom bed file once you added the [startCpG, endCpG] columns with `wgbstools convert -L BED_FILE`.
 - group file: a `csv` table\ text file defining which pat files are target (group1) and which are background (group2)
-- pat files: a set of pat files from known reference cell-types to train the model. You can generate [`pat`](https://github.com/nloyfer/wgbs_tools/docs/pat_format.md) files out of `bam` files for each of the reference cell-types using the `[`wgbstools`](https://github.com/nloyfer/wgbs_tools) bam2pat` command.
+- pat files: a set of pat files from known reference cell-types to train the model. You can generate [`pat`](https://github.com/nloyfer/wgbs_tools/docs/pat_format.md) files out of `bam` files for each of the reference cell-types using the [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `bam2pat` command.
 
 ```bash
 python train.py markers.bed -g groups.csv -f -v -o ./my_train_dir --reference_data /path/to/reference/gDNA/files/*pat.gz
