@@ -1,8 +1,8 @@
 # MarkovDeconv: Cell-type Detection from cell-free methylated DNA in blood samples
 
-MarkovDeconv is a deconvolution model for DNA methylation sequencing data, designed to classify the cellular origins of cfDNA fragments in blood samples. This ultrasensitive method uses read-level CpG methylation patterns to detect trace amounts of cell-type specific signals within complex mixtures. Decoding the cellular origins of circulating cell-free DNA (cfDNA) from liquid biopsies serves as a promising new approach for non-invasive monitoring of tissue damage. 
+MarkovDeconv is a deconvolution model for DNA methylation sequencing data, designed to classify the cellular origins of cell-free DNA (cfDNA) fragments in blood samples. This ultrasensitive method uses read-level CpG methylation patterns to detect trace amounts of cell-type specific signals within complex cfDNA mixtures. Decoding the cellular origins of cfDNA from liquid biopsies serves as a promising new approach for non-invasive monitoring of tissue damage. 
 
-At identified cell-type specific DNA methylation patterns, this model is trained to recognize patterns belonging to cell-types of interest in unknown mixtures. The current version of the tool allows for binary classification of each cfDNA molecule as belonging to the cell-type of interest or alternatively is classified as background.
+At identified cell-type specific DNA methylation patterns, this model is trained to recognize patterns belonging to cell-types of interest in unknown cfDNA mixtures. The current version of the tool allows for binary classification of each cfDNA molecule as belonging to the cell-type of interest or alternatively is classified as background.
 
 
 ## Quick start
@@ -45,7 +45,6 @@ Then, `deconvolve` unknown cfDNA mixtures to identify molecules originating from
 ```bash
 python deconvolve.py /path/to/my_train_dir/ -v --target TARGET-CELLTYPE --pats /path/to/test/cfDNA/files/*pat.gz
 ```
-
 
 
 ## Workflow Vignette
