@@ -1,0 +1,18 @@
+chr	start	end	blockIndex	startCpG	endCpG	target AMF range	background AMF range	margin	Rlenrate	#CpGs	AvgCoverage	Score	Direction	Gene	Function
+chr13	12423161	12423293	1664888	9193436	9193440	0.0-6.0	85-100	79	0	4	15.23	53.16	-	Actn2	Cardiomyocyte differentiation;Cardiogenesis
+chr3	138213689	138214595	456503	2452558	2452576	1.0-4.0	83-99	78	0	18	11.95	55.43	-	Eif4e	Morphology of the heart; Cardiac hypertrophy
+chr19	40571151	40571988	2267510	12570344	12570359	4.0-7.0	86-100	79	0	15	12.14	55.45	-	Sorbs1	Actomyosin structure organization
+chr4	129989114	129990365	584830	3140758	3140779	0.0-3.0	77-99	74	0	21	10.36	53.37	-	Fabp3	Morphology of the heart; Cardiac hypertrophy
+chr9	66880594	66881081	1233628	6745430	6745449	5.0-7.0	81-100	74	96	19	11.8	74.69	-	Tpm1	Cardiac muscle cell contration;Function of cardiac muscle; Cardiomyocyte differentiation
+chr2	76783821	76784035	236714	1280271	1280278	2.0-5.0	78-100	73	0	7	16.26	51.05	-	Ttn	Morphology of cardiomyocytes
+chr3	153604387	153605925	471506	2544184	2544201	5.0-10.0	83-100	73	3	17	12.11	53.17	-	Acadm	Cardiomyocyte differentiation;Cardiogenesis
+chr15	27406708	27407121	1891047	10430430	10430445	5.0-9.0	82-100	73	0	15	13.27	52.37	-	Ank	Morphology of the heart; Cardiac hypertrophy
+chr6	24547545	24548897	788775	4313192	4313212	5.0-5.0	78-100	73	10	20	10.82	54.97	-	Lmod2	Myofibril assembly; Cardiogenesis
+chr14	55607614	55607914	1809769	10009788	10009800	1.0-7.0	78-100	71	0	12	13.29	50.62	-	Myh7	Cardiac muscle cell contration;Cardiogenesis
+chr5	72836518	72837756	681905	3682357	3682371	1.0-7.0	76-100	69	65	14	13.1	64.34	-	Corin	Morphology of the heart; Cardiac hypertrophy
+chr5	113324207	113325325	720948	3901749	3901768	0.0-4.0	72-98	68	0	19	10.95	49.83	-	Myo18b	Cardiomyocyte differentiation;Cardiogenesis
+chr12	53981538	53981815	1591190	8779720	8779737	8.0-14.0	81-100	67	63	17	12.26	63.2	-	Akap6	Cardiac _-adrenergic Signaling
+chr13	12430043	12431653	1664897	9193479	9193490	0.0-3.0	71-100	68	0	11	12.75	48.6	-	Actn2	Cardiomyocyte differentiation;Cardiogenesis
+chr14	58745331	58745737	1813248	10031691	10031703	5.0-8.0	74-100	66	0	12	12.9	47.75	-	Fgf9	Morphology of the heart; Cardiac hypertrophy
+chr14	55579957	55580079	1809723	10009418	10009425	1.0-6.0	71-100	64	0	7	13.02	45.38	-	Myh6	Cardiac muscle cell contration;Cardiogenesis;Cardiomyocyte differentiation
+chr9	71459209	71459240	1238679	6776082	6776085	0.0-0.0	64-100	64	0	3	12.71	43.88	-	Myzap	Morphology of the heart; Cardiac hypertrophy
