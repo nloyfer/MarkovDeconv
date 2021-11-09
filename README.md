@@ -4,6 +4,7 @@ MarkovDeconv is a deconvolution model for DNA methylation sequencing data, desig
 
 At identified cell-type specific DNA methylation patterns, this model is trained to recognize patterns belonging to cell-types of interest in unknown cfDNA mixtures. The current version of the tool allows for binary classification of each cfDNA molecule as belonging to the cell-type of interest or alternatively is classified as background.
 
+![alt text](docs/img/MarkovDeconv_overview.png "MarkovDeconv overview")
 
 ## Quick start
 ### Installation
