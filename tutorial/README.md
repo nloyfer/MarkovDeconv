@@ -37,6 +37,6 @@ $ head cardio_testmarkers_info.txt | cut -f 1-3, 15-16
 ```
 
 These test markers were identified using the following publicly available WGBS data from healthy normal mouse tissues and cell-types. The fastq files were downloaded from The Sequence Read Archive [SRA](https://www.ncbi.nlm.nih.gov/sra), mapped to mm9 using [Bismark](https://github.com/FelixKrueger/Bismark), processed using [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `bam2pat` and finally sliced to to the regions of these top 17 cardiomyocyte-specific methylation markers.  
-| Data Availability  | Tissue or Cell-type |  Replicates | PMID |
+| Data Availability  | Tissue or Cell-type |  Samples | PMID |
 |---|---|---|---|
 | [GSE100262](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100262) |  Bcells          |	3	|	[29326230](https://pubmed.ncbi.nlm.nih.gov/29326230/)
