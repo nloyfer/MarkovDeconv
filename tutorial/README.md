@@ -40,3 +40,13 @@ These test markers were identified using the following publicly available WGBS d
 | Data Availability  | Tissue or Cell-type |  Samples | PMID |
 |---|---|---|---|
 | [GSE100262](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100262) |  Bcells          |	3	|	[29326230](https://pubmed.ncbi.nlm.nih.gov/29326230/)
+| [PRJEB14591](https://www.ebi.ac.uk/ena/browser/view/PRJEB14591)	|	Tcells	|	6	|	[28783152](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912503/)
+| [PRJNA229470](https://www.ebi.ac.uk/ena/browser/view/PRJNA229470) |  Cardiomyocyte	|	3	|	[25335909](https://pubmed.ncbi.nlm.nih.gov/25335909/)
+| [PRJNA310298](https://www.ebi.ac.uk/ena/browser/view/PRJNA310298) |  Hepatocyte	|	3	|	[27380908](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4934005/)
+| [GSE42836](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42836) |  Cerebellum, Colon, Kidney, Intestine	|	4	|	[23995138](https://pubmed.ncbi.nlm.nih.gov/23995138/)
+| [ENCODE](https://www.encodeproject.org/search/?type=Experiment&control_type!=*&related_series.@type=ReferenceEpigenome&replicates.library.biosample.donor.organism.scientific_name=Mus+musculus&assay_title=WGBS&limit=all) |  Cerebellum, Intestine, Kidney	|	9	|	[32728249](https://www.encodeproject.org)
+| [GSE67386](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67386) |  Mammary Epithelial	|	3	|	[25959817](https://pubmed.ncbi.nlm.nih.gov/25959817/)
+| [PRJNA329552](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA329552) |  Hypothalamus	|	3	|	[28498846](https://pubmed.ncbi.nlm.nih.gov/28498846/)
+| [PRJNA344551](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA344551) |  Lung endothelial	|	3	|	[29749927](https://pubmed.ncbi.nlm.nih.gov/29749927/)
+| in-progress |  Bcell, CD4Tcell, CD8Tcell, Neutrophil, buffycoat      |	7	|	in-progress
+
