@@ -1,4 +1,4 @@
-# MarkovDeconv: Cell-type Detection from cell-free methylated DNA in blood samples
+# MarkovDeconv: cell-type detection from cell-free methylated DNA in blood samples
 
 MarkovDeconv is a deconvolution model for DNA methylation sequencing data, designed to classify the cellular origins of cell-free DNA (cfDNA) fragments in blood samples. This ultrasensitive method uses read-level CpG methylation patterns to detect trace amounts of cell-type specific signals within complex cfDNA mixtures. Decoding the cellular origins of cfDNA from liquid biopsies serves as a promising new approach for non-invasive monitoring of tissue damage. 
 
