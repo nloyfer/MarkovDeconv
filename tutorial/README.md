@@ -71,6 +71,7 @@ These test markers were identified using the following publicly available WGBS d
 | [PRJNA344551](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA344551) |  Lung endothelial	|	3	|	[29749927](https://pubmed.ncbi.nlm.nih.gov/29749927/)
 | in-progress |  Bcell, CD4Tcell, CD8Tcell, Neutrophil, buffycoat      |	7	|	in-progress
 
+For this tutorial, the reference data sliced to to these test regions, can be found at:
 ```bash
 $ cd Data/Train/
 $ ls -lh *.pat.gz | head -5
@@ -86,7 +87,7 @@ mCD4T__cardiotestmarkers.pat.gz
 mCD8T__cardiotestmarkers.pat.gz
 ```
 
-###Generate Mixin Test Data
+### Generate Mixin Test Data
 Reference mouse cardiomyocyte WGBS data was split 0.95 train and 0.05 test. Reads from the 0.05 cardiomyocyte split were in-silico mixed into a background of reads from mouse buffy coat (or lymphocyte) WGBS datasets using [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `mix_pat`. We performed three replicates for each admixture ratio assessed (0.1%, 0.5%, 1%, 2%, 5%, 10%, 15%, 50%).
 ```bash
 $ cd Data/Test/Mixin/
@@ -98,10 +99,10 @@ mcardiotest05mixWBC_1.pat.gz
 mcardiotest05mixWBC_2.pat.gz
 ```
 
-#Visualization 
+### Visualization 
 For example, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypomethylated in cardiomyocyte
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/cardiosplt1_95_cardiotestmarkers.pat.gz --min_len 3 --yebl
 
 <!--![alt text](Images/cardiomyocyte.png "Cardiomyocyte_Actn2")-->
-<img src="images/cardiomyocyte.png" width="600" height="600" />
+<img src="Images/cardiomyocyte.png" width="600" height="600" />
 
