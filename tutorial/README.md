@@ -104,5 +104,16 @@ For example, the cardiomyocyte-specific methylation pattern at chr13:12423161-12
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/cardiosplt1_95_cardiotestmarkers.pat.gz --min_len 3 --yebl
 
 <!--![alt text](Images/cardiomyocyte.png "Cardiomyocyte_Actn2")-->
-<img src="Images/cardiomyocyte.png" width="600" height="600" />
+<img src="Images/cardiomyocyte.png" width="600" />
 
+In comparison, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypermethylated in lymphocyte
+$wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/mouse_LymphN_Tcon_A_cardiotestmarkers.pat.gz --min_len 3 --yebl
+
+<!--![alt text](Images/lymphocyte.png "Lymphocyte_Actn2")-->
+<img src="Images/lymphocyte.png" width="600" />
+
+When mixed at 50%, you can see that 1 read is hypomethylated (cardiomyocyte)and 1 read is hypermethylated (lymphocyte)
+$wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
+
+<!--![alt text](Images/50Mixed.png "50Mixed_Actn2")-->
+<img src="Images/50Mixed.png" width="600" />
