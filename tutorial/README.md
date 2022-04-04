@@ -99,6 +99,17 @@ mcardiotest05mixWBC_1.pat.gz
 mcardiotest05mixWBC_2.pat.gz
 ```
 
+### Train:
+First, `train` the model to distinguish CpG Methylation patterns of the target cell-type (ex. cardiomyocyte) from background. 
+This command takes as input:
+- marker file: a `bed` file with 2 extra columns for CpG indexes. Could be the output of the `wgbstools segment` command, or any custom bed file once you added the [startCpG, endCpG] columns with `wgbstools convert -L BED_FILE`.
+- group file: a `csv` table\ text file defining which pat files are target (group1) and which are background (group2)
+- pat files: a set of pat files from known reference cell-types to train the model. You can generate [`pat`](https://github.com/nloyfer/wgbs_tools/docs/pat_format.md) files out of `bam` files for each of the reference cell-types using the [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `bam2pat` command.
+
+```bash
+python train.py cardio_testmarkers.bed -g cardiotestgroups.csv -f -v -o ./mcardio_testmarkers --reference_data Train/*pat.gz
+```
+
 ### Visualization 
 For example, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypomethylated in cardiomyocyte
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/cardiosplt1_95_cardiotestmarkers.pat.gz --min_len 3 --yebl
@@ -112,8 +123,29 @@ $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/mouse_LymphN_T
 <!--![alt text](Images/lymphocyte.png "Lymphocyte_Actn2")-->
 <img src="Images/lymphocyte.png" width="600" />
 
+### Deconvolve:
+Then, `deconvolve` unknown cfDNA mixtures to identify molecules originating from the target cell-type 
+
+```bash
+python deconvolve.py ./mcardio_testmarkers -v --target cardio --pats Test/Mixin/*pat.gz
+```
+
+### Visualization
 When mixed at 50%, you can see that 1 read is hypomethylated (cardiomyocyte)and 1 read is hypermethylated (lymphocyte)
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
 
 <!--![alt text](Images/50Mixed.png "50Mixed_Actn2")-->
 <img src="Images/50Mixed.png" width="600" />
+
+### Plot Results 
+The predicted %cardiomyocyte proportions mixed in each in-silico mixed sample can be found in the generated training directory as a file titled "deconv_summary.csv"
+
+```bash
+$ cd mcardio_testmarkers/results/len_3_MC4_priorL_0.05/
+$ ls
+deconv_summary.csv
+```
+
+The predicted %cardiomyocyte can be plotted against the actual known amount mixed to validate findings. The average predicted %target is graphed relative to the known %mixed to assess sensitivity and specificity of the identified cell type-specific blocks and deconvolution model. 
+
+### Now you can deconvolute the origins of cfDNA samples unknown mixtures for regions of your choosing!
