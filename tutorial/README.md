@@ -151,4 +151,4 @@ The predicted %cardiomyocyte can be plotted against the actual known amount mixe
 <!--![alt text](Images/deconv_summary.png "deconv_summary")-->
 <img src="Images/deconv_summary.png" width="400" height="400" />
 
-## Now you can identify the cellular origins of DNA fragments from unknown mixtures at regions of your choosing!
+### Now you can identify the cellular origins of DNA fragments from unknown mixtures at regions of your choosing!
