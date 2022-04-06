@@ -149,6 +149,6 @@ deconv_summary.csv
 The predicted %cardiomyocyte can be plotted against the actual known amount mixed to validate findings. The average predicted %target is graphed relative to the known %mixed to assess sensitivity and specificity of the identified cell type-specific blocks and deconvolution model. 
 
 <!--![alt text](Images/deconv_summary.png "deconv_summary")-->
-<img src="Images/deconv_summary.png" width="400" height="400" />
+<img src="Images/deconv_summary.png" width="500" height="366" />
 
 ### Now you can identify the cellular origins of DNA fragments from unknown mixtures at regions of your choosing!
