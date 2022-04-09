@@ -58,18 +58,19 @@ chr6	24547545	24548897	Lmod2	Myofibril assembly; Cardiogenesis
 ```
 
 These test markers were identified using the following publicly available WGBS data from healthy normal mouse tissues and cell-types. The fastq files were downloaded from The Sequence Read Archive [SRA](https://www.ncbi.nlm.nih.gov/sra), mapped to mm9 using [Bismark](https://github.com/FelixKrueger/Bismark), processed using [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `bam2pat` and finally sliced to to the regions of these top 17 cardiomyocyte-specific methylation markers.  
-| Data Availability  | Tissue or Cell-type |  Samples | PMID |
-|---|---|---|---|
-| [GSE100262](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100262) |  Bcells          |	3	|	[29326230](https://pubmed.ncbi.nlm.nih.gov/29326230/)
-| [PRJEB14591](https://www.ebi.ac.uk/ena/browser/view/PRJEB14591)	|	Tcells	|	6	|	[28783152](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912503/)
-| [PRJNA229470](https://www.ebi.ac.uk/ena/browser/view/PRJNA229470) |  Cardiomyocyte	|	3	|	[25335909](https://pubmed.ncbi.nlm.nih.gov/25335909/)
-| [PRJNA310298](https://www.ebi.ac.uk/ena/browser/view/PRJNA310298) |  Hepatocyte	|	3	|	[27380908](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4934005/)
-| [GSE42836](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42836) |  Cerebellum, Colon, Kidney, Intestine	|	4	|	[23995138](https://pubmed.ncbi.nlm.nih.gov/23995138/)
-| [ENCODE](https://www.encodeproject.org/search/?type=Experiment&control_type!=*&related_series.@type=ReferenceEpigenome&replicates.library.biosample.donor.organism.scientific_name=Mus+musculus&assay_title=WGBS&limit=all) |  Cerebellum, Intestine, Kidney	|	9	|	[32728249](https://www.encodeproject.org)
-| [GSE67386](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67386) |  Mammary Epithelial	|	3	|	[25959817](https://pubmed.ncbi.nlm.nih.gov/25959817/)
-| [PRJNA329552](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA329552) |  Hypothalamus	|	3	|	[28498846](https://pubmed.ncbi.nlm.nih.gov/28498846/)
-| [PRJNA344551](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA344551) |  Lung endothelial	|	3	|	[29749927](https://pubmed.ncbi.nlm.nih.gov/29749927/)
-| in-progress |  Bcell, CD4Tcell, CD8Tcell, Neutrophil, buffycoat      |	7	|	in-progress
+| Data Availability  | Tissue or Cell-type |  #Samples |  SampleID  | PMID |
+|---|---|---|---|---|
+| [PRJNA391196](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100262) |  Bcells	|	3	|	SRX2938555, SRX2938556, SRX2938557	|	[29326230](https://pubmed.ncbi.nlm.nih.gov/29326230/)
+| [PRJEB14591](https://www.ebi.ac.uk/ena/browser/view/PRJEB14591)	|	Tcells	|	6	|	SAMEA4361188, SAMEA4361186, SAMEA4361187, SAMEA4361180, SAMEA4361181, SAMEA4361182	|	[28783152](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5912503/)
+| [PRJNA229470](https://www.ebi.ac.uk/ena/browser/view/PRJNA229470) |  Cardiomyocyte	|	3	|	SRX385228, SRX385229, SRX385230	|	[25335909](https://pubmed.ncbi.nlm.nih.gov/25335909/)
+| [PRJNA310298](https://www.ebi.ac.uk/ena/browser/view/PRJNA310298) |  Hepatocyte	|	3	|	SRX1555182, SRX1555183, SRX1555184	|	[27380908](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4934005/)
+| [PRJNA183618](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42836) |  Cerebellum, Colon, Kidney, Intestine	|	4	|	SRX209449, SRX209450, SRX209454,SRX209453	|	[23995138](https://pubmed.ncbi.nlm.nih.gov/23995138/)
+| [PRJNA63471](https://www.encodeproject.orghttps://www.encodeproject.org/search/?type=Experiment&control_type!=*&related_series.@type=ReferenceEpigenome&replicates.library.biosample.donor.organism.scientific_name=Mus+musculus&assay_title=WGBS&limit=all)  |  Cerebellum, Intestine, Kidney	|	9	|	[ENCODE](https://www.encodeproject.org)	|	[22955616](https://pubmed.ncbi.nlm.nih.gov/22955616/)
+| [PRJNA279896](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67386) |  Mammary Epithelial	|	3	|	SRX973446, SRX973449, SRX973450	|	[25959817](https://pubmed.ncbi.nlm.nih.gov/25959817/)
+| [PRJNA329552](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA329552) |  Hypothalamus	|	3	|	SRX1959247, SRX1959248, SRX1959249	|	[28498846](https://pubmed.ncbi.nlm.nih.gov/28498846/)
+| [PRJNA344551](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA344551) |  Lung endothelial	|	3	|	SRX2192546, SRX2192547, SRX2192548	|	[29749927](https://pubmed.ncbi.nlm.nih.gov/29749927/)
+| in-house |  Bcell, CD4Tcell, CD8Tcell, Neutrophil, buffycoat      |	8	|	in-progress	| in-progress
+
 
 For this tutorial, the reference data sliced to to these test regions, can be found at:
 ```bash
@@ -112,13 +113,16 @@ python train.py cardio_testmarkers.bed -g cardiotestgroups.csv -f -v -o ./mcardi
 
 ### Visualization 
 For example, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypomethylated in cardiomyocyte
+```bash
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/cardiosplt1_95_cardiotestmarkers.pat.gz --min_len 3 --yebl
-
+```
 <!--![alt text](Images/cardiomyocyte.png "Cardiomyocyte_Actn2")-->
 <img src="Images/cardiomyocyte.png" width="600" />
 
 In comparison, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypermethylated in lymphocyte
+```bash
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/mouse_LymphN_Tcon_A_cardiotestmarkers.pat.gz --min_len 3 --yebl
+```
 
 <!--![alt text](Images/lymphocyte.png "Lymphocyte_Actn2")-->
 <img src="Images/lymphocyte.png" width="600" />
@@ -132,7 +136,9 @@ python deconvolve.py ./mcardio_testmarkers -v --target cardio --pats Test/Mixin/
 
 ### Visualization
 When mixed at 50%, you can see that 1 read is hypomethylated (cardiomyocyte)and 1 read is hypermethylated (lymphocyte)
+```bash
 $wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
+```
 
 <!--![alt text](Images/50Mixed.png "50Mixed_Actn2")-->
 <img src="Images/50Mixed.png" width="600" />
