@@ -18,9 +18,10 @@ RESEARCH USE RIGHTS.
 
 A. License Grant. Subject to the conditions contained herein, Yissum grants to You a nonexclusive, non-transferable, worldwide, and royalty-free license to do the following for Your Research Use only:
 
-Reproduce, create Modifications of, and use the Technology alone, or with Modifications;
-Share source code of the Technology alone, or with Modifications, with other Licensees; and
-Distribute object code of the Technology, alone, or with Modifications, to any third parties for Research Use only, under a license of Your choice that is consistent with this License; and publish papers and books discussing the Technology which may include relevant excerpts that do not, in the aggregate, constitute a significant portion of the Technology.
+  1. Reproduce, create Modifications of, and use the Technology alone, or with Modifications;
+  2. Share source code of the Technology alone, or with Modifications, with other Licensees; and
+  3. Distribute object code of the Technology, alone, or with Modifications, to any third parties for Research Use only, under a license of Your choice     that is consistent with this License; and publish papers and books discussing the Technology which may include relevant excerpts that do not, in the aggregate, constitute a significant portion of the Technology.
+
 B. Residual Rights. You may use any information in intangible form that you remember after accessing the Technology, except when such use violates Yissum's copyrights or patent rights. C. No Implied Licenses. Other than the rights granted herein, Yissum retains all rights, title, and interest in Technology, and You retain all rights, title, and interest in Your Modifications and associated specifications, subject to the terms of this License.
 
 D. Open Source Licenses. Portions of the Technology may be provided with notices and open source licenses from open source communities and third parties that govern the use of those portions, and any licenses granted hereunder do not alter any rights and obligations you may have under such open source licenses, however, the disclaimer of warranty and limitation of liability provisions in this License will apply to all Technology in this distribution.
@@ -35,30 +36,30 @@ V. GENERAL TERMS. A. Disclaimer Of Warranties.
 
 THE TECHNOLOGY IS PROVIDED "AS IS", WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE TECHNOLOGY IS FREE OF DEFECTS, MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE, OR NON-INFRINGING OF THIRD PARTY RIGHTS. YOU AGREE THAT YOU BEAR THE ENTIRE RISK IN CONNECTION WITH YOUR USE AND DISTRIBUTION OF ANY AND ALL TECHNOLOGY UNDER THIS LICENSE. B. Infringement; Limitation of Liability.
 
-If any portion of, or functionality implemented by, the Technology becomes the subject of a claim or threatened claim of infringement ("Affected Materials"), Yissum may, in its unrestricted discretion, suspend Your rights to use and distribute the Affected Materials under this License. Such suspension of rights will be effective immediately upon the posting of notice of suspension on the Technology Site.
+  1. If any portion of, or functionality implemented by, the Technology becomes the subject of a claim or threatened claim of infringement ("Affected Materials"), Yissum may, in its unrestricted discretion, suspend Your rights to use and distribute the Affected Materials under this License. Such suspension of rights will be effective immediately upon the posting of notice of suspension on the Technology Site.
 
-IN NO EVENT WILL YISSUM OR THE HEBREW UNIVERSITY OF JERUSALEM ("HUJ") BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING OUT OF THIS LICENSE (INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, USE, DATA, OR ECONOMIC ADVANTAGE OF ANY SORT),
+  2. IN NO EVENT WILL YISSUM OR THE HEBREW UNIVERSITY OF JERUSALEM ("HUJ") BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING OUT OF THIS LICENSE (INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, USE, DATA, OR ECONOMIC ADVANTAGE OF ANY SORT),
 
 HOWEVER IT ARISES AND ON ANY THEORY OF LIABILITY (INCLUDING NEGLIGENCE), WHETHER OR NOT YISSUM HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. LIABILITY UNDER THIS SECTION V.B.2 SHALL BE SO LIMITED AND EXCLUDED, NOTWITHSTANDING FAILURE OF THE ESSENTIAL PURPOSE OF ANY REMEDY. C.
 
 Termination.
 
-You may terminate this License at any time by notifying Yissum in writing.
+  1. You may terminate this License at any time by notifying Yissum in writing.
 
-All Your rights will terminate under this License if You fail to comply with any of its material terms or conditions and do not cure such failure within thirty (30) days after becoming aware of such noncompliance.
+  2. All Your rights will terminate under this License if You fail to comply with any of its material terms or conditions and do not cure such failure within thirty (30) days after becoming aware of such noncompliance.
 
-Upon termination, You must discontinue all uses and distribution of the Technology, and all provisions of this Section V ("General Terms") shall survive termination.
+  3. Upon termination, You must discontinue all uses and distribution of the Technology, and all provisions of this Section V ("General Terms") shall survive termination.
 
 D.
 
 Miscellaneous.
 
-Use of Names. Except as expressly provided in this License, You may not use the names of Yissum or HUJ except for the limited purpose of identifying the source of the Technology.
+  1. Use of Names. Except as expressly provided in this License, You may not use the names of Yissum or HUJ except for the limited purpose of identifying the source of the Technology.
 
-Integration. This License represents the complete agreement of the parties concerning the subject matter hereof.
+  2. Integration. This License represents the complete agreement of the parties concerning the subject matter hereof.
 
-Severability. If any provision of this License is held unenforceable, such provision shall be reformed to the extent necessary to make it enforceable unless to do so would defeat the intent of the parties, in which case, this License shall terminate.
+  3. Severability. If any provision of this License is held unenforceable, such provision shall be reformed to the extent necessary to make it enforceable unless to do so would defeat the intent of the parties, in which case, this License shall terminate.
 
-Governing Law. This License is governed by the laws of the State of Israel as applied to contracts entered into and performed in Israel between Israeli residents. In no event shall this License be construed against the drafter.
+  4. Governing Law. This License is governed by the laws of the State of Israel as applied to contracts entered into and performed in Israel between Israeli residents. In no event shall this License be construed against the drafter.
 
-Export Control. You agree to comply with all relevant export controls and trade laws of that may apply to the Technology and Modifications.
+  5. Export Control. You agree to comply with all relevant export controls and trade laws of that may apply to the Technology and Modifications.
