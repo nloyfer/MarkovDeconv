@@ -61,7 +61,7 @@ This command takes as input:
 - pat files: a set of pat files from known reference cell-types to train the model. You can generate [`pat`](https://github.com/nloyfer/wgbs_tools/docs/pat_format.md) files out of `bam` files for each of the reference cell-types using the [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `bam2pat` command.
 
 ```bash
-python train.py markers.bed -g groups.csv -f -v -o ./my_train_dir --reference_data /path/to/reference/gDNA/files/*pat.gz
+python train.py markers.bed -g groups.csv -f -v -o ./my_train_dir --reference_data /path/to/reference/gDNA/files/
 ```
 
 ### Deconvolve:
@@ -73,5 +73,5 @@ python deconvolve.py /path/to/my_train_dir/ -v --target TARGET-CELLTYPE --pats /
 
 
 ## Workflow Vignette
-This tutorial comes with step-by-step details about how to use the MarkovDeconv model that should take ~15 minutes on a recommended computer.
+This tutorial comes with step-by-step details about how to use the MarkovDeconv model that should take ~10 minutes on a recommended computer.
 
