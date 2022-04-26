@@ -5,7 +5,8 @@ First, make sure to have [`wgbstools`](https://github.com/nloyfer/wgbs_tools) in
 git clone https://github.com/nloyfer/wgbs_tools.git
 cd wgbs_tools
 python setup.py
-wgbstools init_genome mm9
+wget https://www.cs.huji.ac.il/w\~nloyfer/MarkovDeconv/mm9.fa.gz
+wgbstools init_genome mm9 --fasta mm9.fa.gz
 ```
 
 It is recommended to add wgbstools to your $PATH, E.g,
