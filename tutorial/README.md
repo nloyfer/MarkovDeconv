@@ -109,7 +109,7 @@ This command takes as input:
 
 ```bash
 $ cd MarkovDeconv-main/
-python train.py tutorial/Data/cardio_testmarkers.bed -g tutorial/Data/cardiotestgroups.csv -f -v -o tutorial/Data/mcardio_testmarkers --reference_data tutorial/Data/Train/
+python train.py tutorial/Data/cardio_testmarkers.bed -g tutorial/Data/cardiotestgroups.csv --genome mm9 -f -v -o tutorial/Data/mcardio_testmarkers --reference_data tutorial/Data/Train/
 ```
 
 ### Visualization 
@@ -132,7 +132,7 @@ $ wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/mouse_LymphN_
 Then, `deconvolve` unknown cfDNA mixtures to identify molecules originating from the target cell-type 
 
 ```bash
-python deconvolve.py ./mcardio_testmarkers -v --target cardio --pats Test/Mixin/*pat.gz
+python deconvolve.py --genome mm9 tutorial/Data/mcardio_testmarkers -v --target cardio --pats tutorial/Data/Test/Mixin/*pat.gz
 ```
 
 ### Visualization
