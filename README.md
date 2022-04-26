@@ -22,8 +22,32 @@ cd ..
 ```
 
 #### Dependencies
-- python 3+
-- samtools
+- python 3+ (tested with V3.8.10)
+- samtools (tested with V1.12 using htslib V1.12)
+- bedtools (tested with V2.27.1)
+- boost c++ library (tested with V1.71.0)
+
+## System Requirements
+### Hardware requirements
+`MarkovDeconv` requires only a standard computer with enough RAM to support the in-memory operations. For optimal performance, we recommend a computer with the following specs:
+
+RAM: 16+ GB
+CPU: 16 cores
+
+### Software requirements
+#### OS Requirements
+This package is supported for *macOS* and *Linux*. The package has been tested on the following system:
++ Linux: Ubuntu 20.04
+
+#### Python Dependencies
+`MarkovDeconv` mainly depends on the Python scientific stack.
+
+```
+numpy
+scipy
+pandas
+matplotlib
+```
 
 ### Usage examples
 
