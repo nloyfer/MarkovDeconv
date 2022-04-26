@@ -108,7 +108,8 @@ This command takes as input:
 - pat files: a set of pat files from known reference cell-types to train the model. You can generate [`pat`](https://github.com/nloyfer/wgbs_tools/docs/pat_format.md) files out of `bam` files for each of the reference cell-types using the [`wgbstools`](https://github.com/nloyfer/wgbs_tools) `bam2pat` command.
 
 ```bash
-python train.py tutorial/Data/cardio_testmarkers.bed -g tutorial/Data/cardiotestgroups.csv -f -v -o tutorial/Data/mcardio_testmarkers --reference_data tutorial/Data/Train/*pat.gz
+$ cd MarkovDeconv-main/
+python train.py tutorial/Data/cardio_testmarkers.bed -g tutorial/Data/cardiotestgroups.csv -f -v -o tutorial/Data/mcardio_testmarkers --reference_data tutorial/Data/Train/
 ```
 
 ### Visualization 
