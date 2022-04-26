@@ -49,5 +49,5 @@ python deconvolve.py /path/to/my_train_dir/ -v --target TARGET-CELLTYPE --pats /
 
 
 ## Workflow Vignette
-This tutorial comes with step-by-step details about how to use the MarkovDeconv model
+This tutorial comes with step-by-step details about how to use the MarkovDeconv model that should take ~15 minutes on a recommended computer.
 
