@@ -138,7 +138,7 @@ python deconvolve.py --genome mm9 tutorial/Data/mcardio_testmarkers -v --target 
 ### Visualization
 When mixed at 50%, you can see that 1 read is hypomethylated (cardiomyocyte)and 1 read is hypermethylated (lymphocyte)
 ```bash
-$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 tutorial/Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
+$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 --min_len 2 tutorial/Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
 ```
 
 <!--![alt text](Images/50Mixed.png "50Mixed_Actn2")-->
