@@ -31,8 +31,8 @@ cd ..
 ### Hardware requirements
 `MarkovDeconv` requires only a standard computer with enough RAM to support the in-memory operations. For optimal performance, we recommend a computer with the following specs:
 
-RAM: 16+ GB
-CPU: 16 cores
+- RAM: 16+ GB
+- CPU: 16 cores
 
 ### Software requirements
 #### OS Requirements
