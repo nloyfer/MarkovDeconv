@@ -26,7 +26,7 @@ cd ..
 For this short tutorial, we will be demonstrating how MarkovDeconv works on a subset of mouse cardiomyocyte-specific methylation blocks. 
 
 ```bash
-$ cd tutorial
+$ cd tutorial/Data
 $ head cardio_testmarkers.bed
 #chr    start   end     startCpG        endCpG
 chr2	76783821	76784035	1280271	1280278
