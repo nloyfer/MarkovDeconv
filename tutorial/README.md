@@ -20,6 +20,7 @@ cd MarkovDeconv/counter/
 make
 cd ..
 ```
+which should install in about 30 seconds. 
 
 ## All set. Let's begin
 ### Data and region
