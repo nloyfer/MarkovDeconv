@@ -44,7 +44,7 @@ chr12	53981538	53981815	8779720	8779737
 These cardiomyocyte-specific methylation blocks are closely linked to the regulation of cardiomyocyte-specific gene functions. To identify similar regions, `wgbstools find_markers` command can be used to find cell-type specific methylation blocks for two or more groups of samples.
 
 ```bash
-$ head cardio_testmarkers_info.txt | cut -f 1-3, 15-16 
+$ head cardio_testmarkers_info.txt | cut -f 1-3,15-16 
 chr	start	end	Gene	Function
 chr13	12423161	12423293	Actn2	Cardiomyocyte differentiation;Cardiogenesis
 chr3	138213689	138214595	Eif4e	Morphology of the heart; Cardiac hypertrophy
