@@ -38,6 +38,7 @@ cd ..
 #### OS Requirements
 This package is supported for *macOS* and *Linux*. The package has been tested on the following system:
 + Linux: Ubuntu 20.04
++ macOS: Monterey (12.3.1)
 
 #### Python Dependencies
 `MarkovDeconv` mainly depends on the Python scientific stack.
