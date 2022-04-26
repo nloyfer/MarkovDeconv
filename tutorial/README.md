@@ -115,14 +115,14 @@ python train.py tutorial/Data/cardio_testmarkers.bed -g tutorial/Data/cardiotest
 ### Visualization 
 For example, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypomethylated in cardiomyocyte
 ```bash
-$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/cardiosplt1_95_cardiotestmarkers.pat.gz --min_len 3 --yebl
+$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 tutorial/Data/Train/cardiosplt1_95_cardiotestmarkers.pat.gz --min_len 3 --yebl
 ```
 <!--![alt text](Images/cardiomyocyte.png "Cardiomyocyte_Actn2")-->
 <img src="Images/cardiomyocyte.png" width="600" />
 
 In comparison, the cardiomyocyte-specific methylation pattern at chr13:12423161-12423293 (Actn2) is hypermethylated in lymphocyte
 ```bash
-$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Train/mouse_LymphN_Tcon_A_cardiotestmarkers.pat.gz --min_len 3 --yebl
+$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 tutorial/Data/Train/mouse_LymphN_Tcon_A_cardiotestmarkers.pat.gz --min_len 3 --yebl
 ```
 
 <!--![alt text](Images/lymphocyte.png "Lymphocyte_Actn2")-->
@@ -138,7 +138,7 @@ python deconvolve.py --genome mm9 tutorial/Data/mcardio_testmarkers -v --target 
 ### Visualization
 When mixed at 50%, you can see that 1 read is hypomethylated (cardiomyocyte)and 1 read is hypermethylated (lymphocyte)
 ```bash
-$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
+$ wgbstools vis --genome mm9 -r chr13:12423161-12423293 tutorial/Data/Test/Mixin/mcardiotest50mixWBC_1.pat.gz --min_len 3 --yebl
 ```
 
 <!--![alt text](Images/50Mixed.png "50Mixed_Actn2")-->
@@ -148,7 +148,7 @@ $ wgbstools vis --genome mm9 -r chr13:12423161-12423293 Data/Test/Mixin/mcardiot
 The predicted %cardiomyocyte proportions mixed in each in-silico mixed sample can be found in the generated training directory as a file titled "deconv_summary.csv"
 
 ```bash
-$ cd mcardio_testmarkers/results/len_3_MC4_priorL_0.05/
+$ cd tutorial/Data/mcardio_testmarkers/results/len_3_MC4_priorL_0.05/
 $ ls
 deconv_summary.csv
 ```
